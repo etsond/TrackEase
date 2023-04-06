@@ -44,6 +44,7 @@ __jQuery__: A fast, small, and feature-rich JavaScript library used for simplify
 
 ## Usage
 To get started with TrackEase, simply download the source code and open the index.html file in your web browser.
+>note----  local storage was use for storage
 
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to TrackEase, please check out our contribution guidelines for more information.
