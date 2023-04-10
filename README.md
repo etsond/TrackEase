@@ -1,5 +1,5 @@
 # TrackEase
-Welcome to TrackEase, the ultimate ticket tracker designed to simplify and streamline your project management. TrackEase is a web-based application that enables you to efficiently track and manage your tickets in real-time. With its intuitive user interface, you can easily create, edit, tickets.
+Welcome to TrackEase, the ultimate ticket tracker designed to simplify and streamline your project management. TrackEase is a web-based application that enables you to efficiently track and manage your tickets in real-time. With its intuitive user interface, you can easily create, edit and delete tickets.
 
 ## Features
 **Easy ticket management**: With TrackEase, you can quickly create and manage tickets.
