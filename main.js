@@ -8,6 +8,13 @@ function fetchIssues() {
     let issuesList = document.getElementById('issuesList')
 
     issuesList.innerHTML = '';
+// check if issues array is null or underfine
+
+if(issues === null || issues === undefined){
+    return;
+}
+
+
 // iterates over the getIssues 
     for (let i = 0; i < issues.length; i++) {
         let id = issues[i].id
