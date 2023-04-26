@@ -1,4 +1,8 @@
 # TrackEase
+![gif](https://user-images.githubusercontent.com/35821623/234435553-2ee9a701-11f7-493f-99ec-1e9b2f14b921.gif)
+
+
+
 Welcome to TrackEase, the ultimate ticket tracker designed to simplify and streamline your project management. TrackEase is a web-based application that enables you to efficiently track and manage your tickets in real-time. With its intuitive user interface, you can easily create, edit and delete tickets.
 
 ## Features
@@ -41,6 +45,7 @@ __jQuery__: A fast, small, and feature-rich JavaScript library used for simplify
 8. User Tracking: in the future, add a feature to track users within the application to improve project management processes and identify areas for additional training.
 
 9. Real-time collaboration: TrackEase allows you to collaborate with your team members in real-time, making it easier to keep everyone in the loop and ensure your project stays on track.
+
 
 ## Usage
 To get started with TrackEase, simply download the source code and open the index.html file in your web browser.
