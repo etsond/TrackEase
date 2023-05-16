@@ -1,4 +1,81 @@
-*{
-    background-color: rgb(245, 242, 51);
-    background-repeat: inherit;
+/* Set font family and background color */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+}
+
+/* Center the container */
+.container {
+    margin: 0 auto;
+}
+
+/* Set header styles */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Set jumbotron styles */
+.jumbotron {
+    background-color: #FFFFFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Set form styles */
+form {
+    margin-bottom: 0;
+}
+
+/* Set button styles */
+button {
+    margin-top: 10px;
+}
+
+/* Set list styles */
+#issuesList {
+    background-color: #FFFFFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+}
+
+/* Set input field styles */
+input[type="text"],
+select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Set select styles */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"><path d="M6 7L0.686356 0.715728C0.295768 0.325141 0.295768 -0.225141 0.686356 -0.615728C1.07694 -1.00632 1.72678 -1.00632 2.11737 -0.615728L6 3.26653L9.88263 -0.615728C10.2732 -1.00632 10.9231 -1.00632 11.3136 -0.615728C11.7042 -0.225141 11.7042 0.325141 11.3136 0.715728L6 7Z" fill="%23333333"/></svg>') no-repeat;
+    background-position: calc(100% - 15px) center;
+    background-size: 10px;
+}
+
+/* Set responsive styles */
+@media (min-width: 768px) {
+
+    /* Set jumbotron styles */
+    .jumbotron {
+        padding: 30px;
+    }
+
+    /* Set list styles */
+    #issuesList {
+        padding: 30px;
+    }
 }
