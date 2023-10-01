@@ -23,7 +23,7 @@ googleSignInBtn.addEventListener('click', () => {
         .then((result) => {
             const user = result.user;
             // Redirect or update UI after successful sign-in
-            window.location.href = 'index.html'; // Redirect to main page
+            window.location.href = 'home.html'; // Redirect to main page
         })
         .catch((error) => {
             console.error('Google Sign-In Error:', error);
