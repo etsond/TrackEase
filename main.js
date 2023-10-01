@@ -35,6 +35,20 @@ googleSignInBtn.addEventListener('click', () => {
     });
 });
 
+// Function to execute after successful sign-in
+function onSignIn(user) {
+  console.log('Logged in user:', user.displayName);
+
+  // Update user profile information
+  document.getElementById('user-photo').src = user.photoURL || 'default-user-photo.jpg';
+  document.getElementById('user-name').textContent = user.displayName;
+  document.getElementById('user-email').textContent = user.email;
+
+}
+
+
+
+
 document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
 
 // Retrieve the issues from localStorage and display them on the page

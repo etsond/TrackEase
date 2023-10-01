@@ -66,6 +66,53 @@ select {
     background-size: 10px;
 }
 
+/* User Profile Styles */
+#user-profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+#user-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#user-email {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Logout Button Styles */
+#logout-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    /* Red color for danger */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#logout-btn:hover {
+    background-color: #c9302c;
+    /* Darker red color on hover */
+}
+
+
 /* Set responsive styles */
 @media (min-width: 768px) {
 
